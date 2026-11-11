@@ -1,0 +1,161 @@
+.menu a{
+    display: flex; 
+    gap: 20px;
+    text-align: center;
+    color: #bbc7e9;
+}
+.menu{
+    padding-bottom: 10px;
+
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+*{
+    margin: 0 auto;
+}
+body{
+    
+    background-color: rgb(43, 81, 121);
+    padding: 20px 40px; 
+}
+mark{
+    background-color: rgb(143, 165, 226);
+}
+li{
+   text-align: center;
+}
+
+.card:hover{
+    transform: translateY(-4px);
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    color: aliceblue;
+}
+.metrics-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 20px;
+}
+
+
+
+.card {
+    background-color: #0b2545; 
+    color: #ffffff;
+    padding: 25px 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    text-align: center;
+}
+
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+
+.card-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4cc9f0;
+    margin-bottom: 8px;
+}
+
+
+.card-label {
+   font-size: 0.95rem;
+    line-height: 1.4;
+    color: #e0e6ed;
+}
+
+
+table, td, tr{
+    border: 2px solid rgb(118, 144, 173);
+    border-radius: 4px;
+    margin-bottom: 5%;
+    color: #e0e6ed;
+
+}
+th{
+    background-color: rgb(55, 98, 155);
+}
+
+
+table, thead, tbody,tfoot{
+    text-align: center;
+    padding: 12px 16px;
+    margin-top: 30px;    
+    border-collapse:collapse;
+    width: 100%;
+
+}
+tbody tr:nth-child(even){
+    background-color: #507ddf;
+}
+tbody tr:hover{
+    background-color: #66caca;
+}
+
+
+.concluido{
+    background-color: rgb(165, 197, 117);
+}
+.agendado{
+    background-color: #4db9da;
+}
+.aguardando{
+    background-color: rgb(165, 145, 119);
+}
+.confirmado{
+    background-color: rgb(161, 214, 205);
+}
+.andamento{
+    background-color: #e0ba73;
+}
+.card1, .card {
+    
+    border-radius: 10px; 
+    box-shadow: 20;
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+h2{
+    color: aliceblue;
+    text-align: center
+}
+section{
+    display: flex; 
+    gap: 15px;  
+}
+
+section{
+    color: #ffffff;
+    display: flex;
+}
+
+h3{
+    color: #ffffff;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
